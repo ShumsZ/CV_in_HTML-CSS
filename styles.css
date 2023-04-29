@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cv-below-header {
+    padding-left: 10px;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+
+.header-info {
+    text-align: center;
+    word-spacing: 20px;
+    margin: -20px 0 40px 0;
+}
+
+.year {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.subtitle {
+    text-decoration-line: underline;
+    margin-top: 50px;
+}
+
+.WiderLife {
+    width: fit-content;
+}
+
+.WiderLife :nth-child(n+2) {
+    display: none;
+}
+
+.WiderLife:hover :nth-child(1) {
+    display: none;
+
+}
+
+.WiderLife:hover :nth-child(n+2) {
+    display: inline;
+    transition: 2s;
+    transition-property: linear;
+}
+
+
+#Uos {
+    width: fit-content;
+    background-size: 100%;
+    background-image: repeating-linear-gradient(90deg, blue, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#VM {
+    color: red;
+}
+
+#VM:hover {
+    color: blue;
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+
+}
